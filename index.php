@@ -1,5 +1,5 @@
 <?php
-  $title = "CD Crossfire";
+  $title = "CD Crossfire Travel Softball";
 ?>
 
 <!DOCTYPE html>
@@ -38,6 +38,17 @@
             <a href="http://www.niskysoftball.com" target="_blank">
 						  <img class="img-fluid d-block ml-auto" src="public/img/niskyOrgLogo.png" alt="Nisky Rec Softball Logo">
 					  </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="intro" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>CD Crossfire Softball is an organization committed to providing all players with an experience that fosters positive self-esteem, team spirit, and individual growth through personal achievement and as a team member</p>
+            <p>League Goals - Teach fundamentals of the game. Encourage development and good sportsmanship of all players through participation in a team environment. Have fun, make new friends, and grow as a member of a team. Win enough games to feel good about the team and the season. The league will make every effort to create balanced teams, allowing for the highest level of fair competition, and ensuring that players feel good about their teams and the season.</p>
           </div>
         </div>
       </div>
