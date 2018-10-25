@@ -1,0 +1,11 @@
+html, body {
+  min-height: 100vh;
+  font-family: "Lato";
+}
+
+//Making bootstrap container larger on larger screens
+@media (min-width: 1200px) {
+  .container {
+    min-width: 1600px;
+  }
+}
