@@ -17,15 +17,32 @@
     <link rel="stylesheet" href="public/css/bootstrap.css" type="text/css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="public/css/style.css">
+    <!--Favicon-->
+	  <link rel="icon" type="image/png" href="public/img/favicon.png">
     <title><?php echo $title; ?></title>
   </head>
 
   <body class="d-flex flex-column">
     <?php include_once "includes/navbar.php"?>
 
-    <div class="container py-5">
-      <h1><?php echo $title; ?></h1>
-    </div>
+    <section id="logos" class="py-4">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-9 mr-auto">
+            <a href="/">
+						  <img class="img-fluid" src="public/img/hompageLogo.png" alt="CD Crossfire Travel Softball Logo">
+					  </a>
+          </div>
+
+          <div class="col-md-2 d-none d-md-block">
+            <a href="http://www.niskysoftball.com" target="_blank">
+						  <img class="img-fluid d-block ml-auto" src="public/img/niskyOrgLogo.png" alt="Nisky Rec Softball Logo">
+					  </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     
     <?php include_once "includes/footer.php" ?>
   
