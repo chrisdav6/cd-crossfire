@@ -33,13 +33,22 @@
 						  <img class="img-fluid" src="public/img/hompageLogo.png" alt="CD Crossfire Travel Softball Logo">
 					  </a>
           </div>
-
           <div class="col-md-2 d-none d-md-block">
             <a href="http://www.niskysoftball.com" target="_blank">
 						  <img class="img-fluid d-block ml-auto" src="public/img/niskyOrgLogo.png" alt="Nisky Rec Softball Logo">
 					  </a>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section id="hero">
+      <div class="container h-100 ">
+      <div class="row h-100 d-flex align-items-center justify-content-center">
+        <div class="col text-center">
+          <h1 class="motivate">Teamwork</h1>
+        </div>
+      </div>
       </div>
     </section>
 
