@@ -1,5 +1,5 @@
 #hero {
-  height: 50vh;
+  height: 40vh;
   background: url(../img/hero-bg2.jpg)no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -10,8 +10,10 @@
   }
 
   h1 {
-    background: rgba(0, 0, 0, .75);
-    padding: 1em 2em;
+    opacity: 0;
+    border: 2px solid rgba(0, 0, 0, .75);
+    background: rgba(0, 0, 0, .5);
+    padding: .25em 2.5em;
     color: white;
     display: inline-block;
     font-weight: 300;
@@ -19,7 +21,7 @@
 
     @include mq600 {
       padding: .5em 1em;
-      font-size: 2rem;
+      font-size: 2.5rem;
     }
   }
 }

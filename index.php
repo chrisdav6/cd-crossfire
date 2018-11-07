@@ -46,7 +46,7 @@
       <div class="container h-100 ">
       <div class="row h-100 d-flex align-items-center justify-content-center">
         <div class="col text-center">
-          <h1 class="motivate">Teamwork</h1>
+          <h1 class="motivate">Teamwork.</h1>
         </div>
       </div>
       </div>
