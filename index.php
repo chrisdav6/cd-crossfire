@@ -52,21 +52,32 @@
       </div>
     </section>
 
-    <section id="intro" class="py-5">
+    <section id="weather" class="py-3">
       <div class="container">
         <div class="row">
-          <div class="col text-center text-md-left">
-            <p><strong>CD Crossfire Softball</strong> is an organization committed to providing all players with an experience that fosters positive self-esteem, team spirit, and individual growth through personal achievement and as a team member</p>
-            <p>League Goals - Teach fundamentals of the game. Encourage development and good sportsmanship of all players through participation in a team environment. Have fun, make new friends, and grow as a member of a team. Win enough games to feel good about the team and the season. The league will make every effort to create balanced teams, allowing for the highest level of fair competition, and ensuring that players feel good about their teams and the season.</p>
+          <div class="col d-flex align-items-center justify-content-center">
+            <canvas id="clear-day" class="weatherIcons pr-3" width="50" height="50"></canvas>
+            <p class="lead mb-0 text-light text-center"><span class="summary"></span> and <span class="deg"></span>&deg; in Niskayuna</p>
           </div>
         </div>
       </div>
     </section>
 
-    
+    <section id="intro" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <p><strong>CD Crossfire Softball</strong> is an organization committed to providing all players with an experience that fosters positive self-esteem, team spirit, and individual growth through personal achievement and as a team member</p>
+            <p class="mb-0">League Goals - Teach fundamentals of the game. Encourage development and good sportsmanship of all players through participation in a team environment. Have fun, make new friends, and grow as a member of a team. Win enough games to feel good about the team and the season. The league will make every effort to create balanced teams, allowing for the highest level of fair competition, and ensuring that players feel good about their teams and the season.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <?php include_once "includes/footer.php" ?>
   
     <script src="public/js/jquery.min.js"></script>
+    <script src="public/js/skycons.js"></script>
     <script src="public/js/bootstrap.bundle.min.js"></script>
     <script src="public/js/scripts.js"></script>
   </body>

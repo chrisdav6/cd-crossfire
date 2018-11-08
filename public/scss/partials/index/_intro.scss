@@ -1,4 +1,8 @@
 #intro p {
   font-size: 1.5rem;
   font-weight: 300;
+
+  @include mq600 {
+    font-size: 1.2rem;
+  }
 }

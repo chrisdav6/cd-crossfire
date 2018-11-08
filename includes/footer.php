@@ -7,7 +7,7 @@
 				</a>
       </div>
       <div class="col-md-6 text-center text-md-right">
-        <p class="mb-0">© CD Crossfire Travel Softball <?php echo date("Y"); ?> - Niskayuna, NY</p>
+        <p class="mb-0 lead">© CD Crossfire Travel Softball <?php echo date("Y"); ?> - Niskayuna, NY</p>
       </div>
     </div>
   </div>

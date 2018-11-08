@@ -1,0 +1,11 @@
+#weather {
+  background: $orange;
+
+  p {
+    font-size: 2rem;
+
+    @include mq600 {
+      font-size: 1.2rem;
+    }
+  }
+}
