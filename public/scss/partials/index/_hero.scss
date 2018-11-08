@@ -4,6 +4,9 @@
   background-size: cover;
   background-position: center bottom;
   background-attachment: fixed;
+  box-shadow: 
+    inset 0px 15px 8px -12px rgba(0, 0, 0, .5),
+    inset 0px -15px 8px -12px rgba(0, 0, 0, .5); 
 
   @include mq600 {
     background-position: left bottom;
