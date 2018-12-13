@@ -25,17 +25,17 @@
   <body class="d-flex flex-column">
     <?php include_once "includes/navbar.php"?>
 
-    <section id="logos" class="py-4">
+    <section id="logos" class="py-4 d-none d-md-block">
       <div class="container">
         <div class="row d-flex align-items-center">
-          <div class="col-md-9 mr-auto">
+          <div class="col-md-8 mr-auto">
             <a href="/">
 						  <img class="img-fluid" src="public/img/hompageLogo.png" alt="CD Crossfire Travel Softball Logo">
 					  </a>
           </div>
           <div class="col-md-2 d-none d-md-block">
             <a href="http://www.niskysoftball.com" target="_blank">
-						  <img class="img-fluid d-block ml-auto" src="public/img/niskyOrgLogo.png" alt="Nisky Rec Softball Logo">
+						  <img class="img-fluid d-block ml-auto niskyLogo" src="public/img/niskyOrgLogo.png" alt="Nisky Rec Softball Logo">
 					  </a>
           </div>
         </div>
