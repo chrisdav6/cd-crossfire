@@ -60,8 +60,9 @@
       <div class="row">
         <div class="col d-flex align-items-center justify-content-center">
           <canvas id="clear-day" class="weatherIcons pr-3" width="50" height="50"></canvas>
-          <p class="lead mb-0 text-light text-center"><span class="summary"></span> and <span class="deg"></span>&deg;
-            in Niskayuna</p>
+          <p class="lead mb-0 text-light text-center">Current weather in Niskayuna is <span class="summary"></span> and
+            <span class="deg"></span>&deg;
+          </p>
         </div>
       </div>
     </div>
